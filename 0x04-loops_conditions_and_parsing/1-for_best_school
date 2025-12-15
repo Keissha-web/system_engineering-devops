@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Loop Best school 10 times,.
-for i in $(seq 10); 
+for i in range(1,11); 
 do
     echo "Best School"
 done
