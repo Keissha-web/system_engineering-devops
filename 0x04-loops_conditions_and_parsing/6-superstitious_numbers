@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#a Bash script that displays numbers from 1 to 20, with cash statement
+COUNT=1
+while [ $COUNT -le 20 ]; do
+ case $COUNT in
+  4)
+   echo $COUNT
+   echo "bad luc from China"
+   ;;
+  9)
+    echo $COUNT
+    echo "bad luck from Japan"
+    ;;
+ 17)
+    echo $COUNT
+    echo "bad luck from Italy"
+    ;;
+ *)
+    echo $COUNT
+    ;;
+ esac
+ COUNT=$((COUNT + 1))
+done
