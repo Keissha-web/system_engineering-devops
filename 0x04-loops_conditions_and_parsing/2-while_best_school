@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # script to display the phrase "Best School" 10 times
+COUNT=1
 while [ $COUNT -le 10 ]; 
 do
     echo "Best School"
