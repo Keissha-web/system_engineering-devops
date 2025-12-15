@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #a script that loops from 1 to 10, uing if, elif and else
+COUNT=1
 while [ $COUNT -le 10 ]; do
  if [ $COUNT -eq 4 ]; then
   echo "bad luck"
