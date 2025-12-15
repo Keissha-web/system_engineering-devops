@@ -1,6 +1,7 @@
 #!/usr/bin/env bash.
 # script to display the phrase "Best School" 10 times
-while [ $COUNT -le 10 ]; do
+while [ $COUNT -le 10 ]; 
+do
     echo "Best School"
     COUNT=$((COUNT + 1))
 done
