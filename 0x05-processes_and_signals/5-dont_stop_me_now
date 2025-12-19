@@ -6,4 +6,4 @@ if [ -z "$PID" ]; then
 else
 echo "Stopping process $PID..."
     kill "$PID"
-done
+fi
