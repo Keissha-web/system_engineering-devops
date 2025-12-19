@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 # A Bash script named 7-highlander
 
-trap "echo 'I am invincible!!!'" SIGTERM
-while true
-do
-    echo "To infinity and beyond"
-    sleep 2
-done
+# print I am invincible!!! when receiving a SIGTERM signal
+trap "echo I am invincible!!!" SIGTERM
+
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done;
+
